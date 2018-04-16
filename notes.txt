@@ -1,0 +1,25 @@
+1.变分辨率（随时可完成）
+2.中心点识别的python实现（已完成）
+3.如果能在图中识别出障碍
+4.计算树莓派中的运行速度（已完成）
+
+
+##picamera库
+__picamera.preview 预热
+
+
+看控制代码
+
+##控制算法
+__转弯：
+	leftspeed = speed * (1000+direction)/256
+	rightspeed = speed * (1000+direction)/256
+__PWM设置
+	MOTER_PWM_CYRCLE：周期
+	speed:直接用占空比表示
+	
+	
+##车身放镜子
+
+
+##use_video_port - 使用摄像头的图像或者视频端口进行图像捕获，默认为 False，表示使用图像端口。图像端口捕获速度慢（打开预览可知，捕获时会出现停顿现象），但是图像质量高；如果想要快速的捕获图像，使用视频端口，那么设为 True
